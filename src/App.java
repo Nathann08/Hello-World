@@ -3,11 +3,14 @@ public class App {
 
         String currLine = "#";
         int i = 0;
-        while (i<5){
+
+        while (i<9){
             System.out.println(currLine);
             currLine = currLine + "#"; 
             i++;
         } 
+
+        System.out.println("Hi!")
     }
 }     
 
